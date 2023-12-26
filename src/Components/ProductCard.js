@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AiFillStar, AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import "./Products.css"
 
-const ProductCard = ({ pic, prodName, price, customerNumber }) => {
+const ProductCard = ({ prodImg, prodName, price, customerNumber }) => {
     const [wish, setWish] = useState(false);
     const handleHeart = () => {
         setWish(true);
@@ -13,7 +13,7 @@ const ProductCard = ({ pic, prodName, price, customerNumber }) => {
     return (
         <div id="card">
             <div id="img">
-                <img id="main" src={pic} alt="product"></img>
+                <img id="main" src={prodImg} alt="product"></img>
                 {wish ? (
                     <AiFillHeart onClick={handleUnheart} className="heart red" />
                 ) : (

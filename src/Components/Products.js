@@ -5,7 +5,7 @@ import "./Products.css"
 
 const Products = () => {
     const [productList, setProductList] = useContext(ProductContext);
-
+    console.log(productList)
     return (
         <div id="prodList">
             {productList.length === 0 ? (
@@ -16,7 +16,7 @@ const Products = () => {
                 productList.map((data, index) => (
                     <ProductCard
                         key={index}
-                        img={data.img}
+                        prodImg={data.prodImg}
                         prodName={data.prodName}
                         price={data.price}
                         customerNumber={data.customerNumber}

@@ -3,7 +3,7 @@ const brand = ["Mango", "H&M"];
 const fakerData = [];
 for (let i = 0; i < 12; i++) {
     fakerData.push({
-        img: faker.image.urlPicsumPhotos({
+        prodImg: faker.image.urlPicsumPhotos({
             category: "dark",
             width: 239,
             height: 325,
