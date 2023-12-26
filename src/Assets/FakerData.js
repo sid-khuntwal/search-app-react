@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-const brand = ["Levis", "Max"];
+const brand = ["Mango", "H&M"];
 const fakerData = [];
 for (let i = 0; i < 12; i++) {
     fakerData.push({
