@@ -1,0 +1,24 @@
+.card {
+    width: 165px;
+    height: 254px;
+}
+
+#image {
+    border-radius: 3px;
+    box-shadow: 8px 3px 8px #cdc2c2;
+}
+
+p {
+    font-weight: 200;
+}
+
+.suggestions {
+    font-weight: 500;
+    font-size: small;
+    padding-left: 27px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
