@@ -22,3 +22,9 @@ display: flex;
   justify-content: flex-end;
   padding: 1rem;
 }
+
+#box {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
